@@ -1,5 +1,5 @@
 {
-  "name": "fontello",
+  "name": "",
   "css_prefix_text": "icon-",
   "css_use_suffix": false,
   "hinting": true,
@@ -7,46 +7,142 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "bf882b30900da12fca090d9796bc3030",
-      "css": "mail",
-      "code": 59392,
+      "uid": "f3f90c8c89795da30f7444634476ea4f",
+      "css": "angle-left",
+      "code": 59411,
       "src": "fontawesome"
     },
     {
-      "uid": "72b1277834cba5b7944b0a6cac7ddb0d",
-      "css": "rss",
+      "uid": "7bf14281af5633a597f85b061ef1cfb9",
+      "css": "angle-right",
+      "code": 59412,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "5de9370846a26947e03f63142a3f1c07",
+      "css": "angle-up",
+      "code": 59413,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e4dde1992f787163e2e2b534b8c8067d",
+      "css": "angle-down",
+      "code": 59414,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "b8d0c7d76e87b94882329a88e8e43d3d",
+      "css": "gplus",
+      "code": 59399,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
+      "css": "instagramm",
+      "code": 59396,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "657ff9fe5df74f1993937aa4b19cf909",
+      "css": "qq",
       "code": 59394,
       "src": "fontawesome"
     },
     {
-      "uid": "37f6cfbb4062ed0d01b351ec35c334ff",
-      "css": "right-open-mini",
-      "code": 59398,
+      "uid": "34cb6ce62bf3f1efd59e2f5eb0d79f82",
+      "css": "wechat",
+      "code": 59395,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "289b5f92f23acf1059c93fbf401c1ad5",
+      "css": "down-open-big",
+      "code": 59407,
       "src": "entypo"
     },
     {
       "uid": "884cfc3e6e2d456dd2a2ca0dbb9e6337",
       "css": "left-open-big",
+      "code": 59408,
+      "src": "entypo"
+    },
+    {
+      "uid": "004882ab2d5c418c5b2060e80596279b",
+      "css": "right-open-big",
+      "code": 59409,
+      "src": "entypo"
+    },
+    {
+      "uid": "0805cca616b3c12714f35af4d0912c10",
+      "css": "up-open-big",
+      "code": 59410,
+      "src": "entypo"
+    },
+    {
+      "uid": "w3nzesrlbezu6f30q7ytyq919p6gdlb6",
+      "css": "home",
+      "code": 59404,
+      "src": "typicons"
+    },
+    {
+      "uid": "77b3693facc3d803417105997b4ffe96",
+      "css": "facebook",
       "code": 59393,
-      "src": "entypo"
+      "src": "typicons"
     },
     {
-      "uid": "4a413ef43c364dafa42766e74c31bbca",
-      "css": "cc",
-      "code": 59395,
-      "src": "entypo"
-    },
-    {
-      "uid": "d090355c31f497b61d676416c1fd39fb",
+      "uid": "4568bba1dba45522fc539c733c9b35e5",
       "css": "twitter",
-      "code": 59397,
-      "src": "entypo"
+      "code": 59392,
+      "src": "typicons"
     },
     {
-      "uid": "d1945696d6bbbf84e388df9961f26a37",
-      "css": "sina-weibo",
-      "code": 59396,
-      "src": "entypo"
+      "uid": "9ea28ba01d59a4410fa3db9c02cce157",
+      "css": "github",
+      "code": 59398,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "3a171c02a5096c63c7c0e2e84d5eeb5a",
+      "css": "weibo",
+      "code": 59402,
+      "src": "zocial"
+    },
+    {
+      "uid": "a58032f4aafd0eec54803075f5b320d4",
+      "css": "email",
+      "code": 59403,
+      "src": "zocial"
+    },
+    {
+      "uid": "8045477f6a7ef0bd7caff130ad25b88d",
+      "css": "facebook-rect",
+      "code": 59397,
+      "src": "brandico"
+    },
+    {
+      "uid": "a58fe946fe31826f0b19cb4dfaaf13d2",
+      "css": "googleplus",
+      "code": 59401,
+      "src": "elusive"
+    },
+    {
+      "uid": "cba6018f5de17c76f70b7d2c06037e5a",
+      "css": "mail-1",
+      "code": 59400,
+      "src": "websymbols"
+    },
+    {
+      "uid": "26f5aa38f3889213334b3990b4ad483b",
+      "css": "rss",
+      "code": 59406,
+      "src": "websymbols"
+    },
+    {
+      "uid": "7645346d5ab8b17f69a9c765c180aca3",
+      "css": "rss-alt",
+      "code": 59405,
+      "src": "websymbols"
     }
   ]
 }

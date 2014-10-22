@@ -10,9 +10,6 @@
 
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/win8screensaver.css" media="all">
-    <script src="/assets/js/jquery.js"></script>
-    <script src="/assets/js/jquery-ui.js"></script>
-    <script src="/assets/js/search.js"></script>
   </head>
   <body>
     <aside id="sidebar">
@@ -22,27 +19,28 @@
         <ul id="tags__ul">
           <li id="js-label1" class="tags__li tags-btn active">所有文章</li>
           <li id="js-label2" class="tags__li tags-btn">云计算</li>
-          <li id="js-label3" class="tags__li tags-btn">编程思想</li>
-          <li id="js-label4" class="tags__li tags-btn">互联网</li>
+          <li id="js-label3" class="tags__li tags-btn">编程</li>
+          <li id="js-label4" class="tags__li tags-btn">开源</li>
           <li id="js-label5" class="tags__li tags-btn">天文</li>
           <li id="js-label6" class="tags__li tags-btn">游戏</li>
           <li id="js-label7" class="tags__li tags-btn">趣闻</li>
+          <li id="js-label8" class="tags__li tags-btn">杂</li>
         </ul>
 
         <div id="tags__bottom">
           <a href="mailto:krast@live.cn" id="icon-email" class="tags-btn fontello"></a>
           <a href="/rss.xml" id="icon-feed" class="tags-btn fontello"></a>
-          <a href="/rss.xml" id="icon-weibo" class="tags-btn fontello"></a>
         </div>
       </nav> <!-- end #tags -->
 
       <div id="posts-list">
+       
         <form action="" id="search-form">
           <a href="/index.html" id="mobile-avatar"></a>
           <!-- NOTE: input field is disabled by default -->
-          <input id="search-input" type="text" placeholder="Search..." required >
-        </form>
-
+          <input id="search-input" type="text" placeholder="Search..." disabled >
+        </form> 
+        
         <nav id="pl__container">
         {% for post in site.posts %}
           <a class="{{ post.categories }} pl__all" href="{{ post.url }}"><span class="pl__circle"></span><span class="pl__title">{{ post.title }}</span><span class="pl__date">{{ post.date | date: "%b %Y" }}</span></a>
@@ -74,8 +72,8 @@
     <script type="text/javascript">
     if ($(window).width() >= 1280) {
         win8screensaver({
-            img:"/assets/img/Mac_book_pro_retina010.jpg",
-            msg:"Welcome!"
+            img:"/assets/img/screensaver.jpg",
+            msg:"Welcome to Krast's Blog！"
         });
       }
     </script>

@@ -13,10 +13,12 @@ if ($(window).width() <= 1280) {
 // Variables
     tag1       = $('.pl__all'),
     tag2       = $('.cloud'),
-    tag3       = $('.place_your_tag_name_here'),
-    tag4       = $('.place_your_tag_name_here'),
-    tag5       = $('.place_your_tag_name_here'),
-    tag6       = $('.fun');
+    tag3       = $('.programming'),
+    tag4       = $('.opensource'),
+    tag5       = $('.astronomy'),
+    tag6       = $('.game');
+    tag7       = $('.fun');
+    tag8       = $('.others');
 var sidebar    = $('#sidebar'),
     container  = $('#post'),
     content    = $('#pjax'),
@@ -30,7 +32,7 @@ var clickHandler = function(k) {
     window['tag'+k].delay(50).fadeIn(350);
   }
 };
-for (var i = 1; i <= 7; i++) {
+for (var i = 1; i <= 8; i++) {
   $('#js-label' + i).on('click', clickHandler(i));
 }
 

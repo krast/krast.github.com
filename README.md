@@ -6,6 +6,10 @@
 * [NProgress.js](http://ricostacruz.com/nprogress/)
 * [Solarized Light Pygments CSS](https://gist.github.com/edwardhotchkiss/2005058)
 
+## How to create new post
+
+octopress new post "Hello World" --dir 杂
+
 ## Copyright & License
 
 Copyright (c) 2014 Krast - Released under The MIT License.
